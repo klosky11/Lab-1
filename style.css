@@ -7,7 +7,7 @@ body {
 
 h1 {
     font-size: 10pt;
-    padding-left: 4px;
+    padding-left: 0;
 }
 
 /* Navigation */
@@ -23,6 +23,7 @@ li {
 
 ul {
     padding: 0px;
+    margin-top: -5px;
 }
 
 .navigation a {
@@ -31,6 +32,7 @@ ul {
     font-size: 10pt;
 }
 
+/* Hire Us Button */
 .hireUs {
     background-color: #000;
     text-decoration: none;
@@ -41,6 +43,7 @@ ul {
     text-align:center;
     width: 100vm;
     margin-left: 0px;
+    margin-top: 5px;
 }
 a.hireUs {
     color: #fff;
@@ -48,10 +51,10 @@ a.hireUs {
 
 h2 {
     font-size: 2.5 em;
-    margin-top: 20px;
+    margin-top: 15px;
 }
 
-/* Button */
+/* Call to Action Button */
 .button {
     background-color: #000;
     text-decoration: none;
@@ -91,20 +94,22 @@ footer {
 
 .footerLeft {
     color: #000;
+    font-size: 12px;
+    margin-left: 5px;
 }
 
 .footerRight {
     justify-content: space-between;
-    margin-left: 140px;
+    margin-left: 185px;
 }
 
 .footerRight a {
     color: #69696a;
     text-decoration: none;
+    font-size: 12px;
 }
 
-
-
+/* Desktop View */
 @media screen and (min-width: 768px) {
 
     p {
@@ -126,19 +131,19 @@ footer {
 
     li {
         padding: 5px;
-        margin-top: -40px;
+        margin-top: -30px;
     }
 
     .hireUs {
-        margin-top: -8px;
+        margin-top: -5px;
     }
 
     h2 {
-        margin-top: 60px;
+        margin-top: 50px;
     }
 
     .footerRight {
-        margin-left: 700px;
+        margin-left: 750px;
     }
     
 
