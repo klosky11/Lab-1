@@ -81,7 +81,7 @@ p {
 }
 
 /* Circles */
-.circle-container {
+.circle {
     display: none;
     position: absolute;
     opacity: .5%;
@@ -159,7 +159,7 @@ footer {
 
     li {
         padding: 5px;
-        margin-top: -30px;
+        margin-top: -20px;
     }
 
     .hireUs {
@@ -171,7 +171,7 @@ footer {
     }
 
     /* Circles */
-    .circle-container {
+    .circle {
         position: absolute;
         opacity: .5%;
         border-radius: 50%;
